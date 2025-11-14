@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+*.venv
+
+# Data files (to keep repo small)
+# We might remove this line if we want to submit the data
+data/raw/
+data/processed/
+
+# IDE / OS specific
+.vscode/
+.DS_Store
