@@ -39,11 +39,21 @@ Our project is a verifiable, logical engine. The 100% score on our model *proves
 
 ## 5. How to Run This Project (V3 - Grand Champion)
 
-**Step 1: Setup**
+**Setup (Linux)**
 ```bash
 # Create and activate a virtual environment
 python3 -m venv venv
 source venv/bin/activate
+# Install all required packages
+pip install -r requirements.txt
+streamlit run src/dashboard/app_v3.py
+```
+
+**Setup (Windows)**
+```bash
+# Create and activate a virtual environment
+python -m venv venv
+.\venv\Scripts\Activate.ps1
 # Install all required packages
 pip install -r requirements.txt
 streamlit run src/dashboard/app_v3.py
